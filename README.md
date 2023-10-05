@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 
 <h1 align="center">🎵 共融藝術 ✕ 科技 學生工作坊 🎵</h1>
 <p align="center"> 2023/24 Phase 1: Student Workshop </p>
@@ -68,9 +69,6 @@
 </li>
 
 ## 相關連結
-lazarus: 
-
-
 1. 音頻檔案轉換 (.m4a to .mp3) https://cloudconvert.com/m4a-to-mp3 or https://convertio.co/m4a-mp3/
 
 2. Big Sound Bank https://bigsoundbank.com/
@@ -82,17 +80,6 @@ lazarus:
 5. Royalty Free Ambient Sound https://pixabay.com/sound-effects/search/ambient/
 
 6. Learningsynths(Ableton) https://learningsynths.ableton.com/en/playground
-
-
-
-
-
-Andio:
-
-
-
-tinyurl.com/soundlink400 (https://docs.google.com/document/d/1Ov8khTTE2uyh5M6Nx80OaAZoGltTymBk_y3TIceN2ug/edit)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
