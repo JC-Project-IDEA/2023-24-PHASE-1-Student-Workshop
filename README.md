@@ -41,31 +41,35 @@
 
 
 <li>
-<a href="https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/d142841a5351fd6474d463ced035a287cb804ed4/Part%201_Drawing(I)%20-%20Expand!%20Drawing!_compressed.pdf"> 第1堂 - Drawing  </a>
+<a href=""> 第1堂 - Drawing  </a>
 </li>
 
 <li>
-<a href="https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/Part%202%20%20Arduino(I)%20-%20Draw%20the%20Circuit.pdf"> 第2堂 - Circuit </a>
+<a href=""> 第2堂 - Circuit </a>
 </li>
 
 <li>
-<a href="https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/Part%203%20%20Sound(I)%20-%20Fields%20of%20Sense.pdf"> 第3堂 - Sound I </a>
+<a href=""> 第3堂 - Sound I </a>
 </li>
 
 <li>
-<a href="https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/Part%204%20%20Sound(II)%20-%20Fields%20of%20Sense.pdf"> 第4堂 - Sound II </a>
+<a href=""> 第4堂 - Sound II </a>
 </li>
 
 <li>
-<a href= "https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/Part%205%20%20Arduino(II)%20-%20Basic%20Coding_compressed.pdf"> 第5堂 - Circuit II </a>
+<a href= ""> 第5堂 - Circuit II </a>
 </li>
 
 <li>
-<a href= "https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/Blink.txt"> Code Example - Blink</a>
+<a href= ""> Code Example - Blink</a>
 </li>
 
 <li>
-<a href= "https://github.com/JC-Project-IDEA/PHASE-2-Student-Workshop/blob/main/SimpleMp3Player.txt"> Code Example - SimpleMp3Player</a>
+<a href= ""> Code Example - SimpleMp3Player</a>
+</li>
+
+<li>
+<a href= "https://playcanv.as/p/1sMAxJ0g/">DrawSound組裝步驟圖解</a>
 </li>
 
 ## 相關連結
@@ -154,9 +158,9 @@ if (measurement1 >= 400){//決定觸發起動歌曲的條件(值)
 
 1. 遇到問題時，我們可以在網上尋找解決辦法，Arduino官網的help center列舉了各種常見的問題：https://support.arduino.cc/hc/en-us ，你也可以在官網先觀看tutorials，對軟件、硬件進行更深入的學習。
 2. 如果你是在運行Arduino IDE中遇到了問題，比如介面下方亮起紅色顯示error,你可以直接點擊“Copy error messages”，然後將error放到網上，就能找到解決辦法。有時候可能只是很小的問題，比如少打了一個標點符號或者打錯了一個字母、忘記安裝編碼庫等等。
-3. 如果程式在燒錄後沒有顯示紅色的error，但是依然無法聽到聲音，那可以考慮是否是音頻本身或者電路連接的問題。打開Arduino IDE中的Serial Monitor (Tools --> Serial Monitor)，手指捏住萬字夾，如果看到Serial Monitor中的數值發生變動（一般會大於400），說明有可能是音頻本身的問題，如果捏住萬字夾，Serial Monitor中的數值沒有變化，則需要重新檢查電路連接。
+3. 如果程式在燒錄後沒有顯示紅色的error，但是依然無法聽到聲音，那可以考慮是否是音頻本身或者電路連接的問題。打開Arduino IDE中的Serial Monitor (Tools --> Serial Monitor)，手指捏住電線，如果看到Serial Monitor中的數值發生變動（一般會大於400），說明有可能是音頻本身的問題，如果捏住電線，Serial Monitor中的數值沒有變化，則需要重新檢查電路連接。
 4. 音頻問題：確保按照每一個步驟將聲音儲存到了micro sd卡裡。你可以在電腦裡先聽一遍自己的聲音，確保聲音能夠正常播放的，micro sd卡需要用力按進mp3板的卡槽裡，燒錄過程中如果見到mp3板的led燈閃爍，說明燒錄成功。
-5. 電路連接問題：確保每條線路都依照手冊所示緊密連接，其中電阻和杜邦線都需要用力按進麵包板的孔裡才能通電；萬字夾需要夾緊導電墨水，墨水的面積需要足夠大，而且確保3號RECIEVE PIN是連接到紙上的（2號是SEND PIN，不能連接到紙上）。硬件的問題多種多樣，需要耐心排除各種問題，有時候可以嘗試更換新的麵包板、杜邦線、電阻，也可以嘗試把線插進麵包板不同的空位裡。
+5. 電路連接問題：確保每條線路都依照手冊所示緊密連接，其中電阻和杜邦線都需要用力按進麵包板的孔裡才能通電；電線需要緊貼導電墨水，墨水的面積需要足夠大，而且確保3號RECIEVE PIN是連接到紙上的（2號是SEND PIN，不能連接到紙上）。硬件的問題多種多樣，需要耐心排除各種問題，有時候可以嘗試更換新的麵包板、杜邦線、電阻，也可以嘗試把線插進麵包板不同的空位裡。
 
 
 
