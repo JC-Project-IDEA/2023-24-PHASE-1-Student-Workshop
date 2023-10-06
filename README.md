@@ -39,7 +39,7 @@
 
 ## 學習資料下載：
 
-
+/*
 <li>
 <a href=""> 第1堂 - Drawing  </a>
 </li>
@@ -67,6 +67,7 @@
 <li>
 <a href= ""> Code Example - SimpleMp3Player</a>
 </li>
+*/
 
 <li>
 <a href= "https://playcanv.as/p/1sMAxJ0g/">DrawSound組裝步驟圖解</a>
