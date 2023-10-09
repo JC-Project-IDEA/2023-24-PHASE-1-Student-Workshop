@@ -86,6 +86,8 @@
 
 6. Learningsynths(Ableton) https://learningsynths.ableton.com/en/playground
 
+7. H4n manual https://zoomcorp.com/media/documents/H4n-manual.pdf
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
