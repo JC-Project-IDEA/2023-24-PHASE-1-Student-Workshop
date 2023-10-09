@@ -39,11 +39,11 @@
 
 ## 學習資料下載：
 
-<!--
 <li>
 <a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%201.pdf"> 第1堂 - Drawing  </a>
 </li>
 
+<!--
 <li>
 <a href=""> 第2堂 - Circuit </a>
 </li>
