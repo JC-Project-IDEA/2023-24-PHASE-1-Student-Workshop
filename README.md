@@ -43,6 +43,18 @@
 <a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%201.pdf"> 第1堂 - Drawing  </a>
 </li>
 
+<li>
+<a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%202.pdf"> 第2堂 - Arduino(I)  </a>
+</li>
+
+<li>
+<a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%203%20%26%204.pdf"> 第3-4堂 - Sound  </a>
+</li>
+
+<li>
+<a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%205.pdf"> 第5堂 - Arduino(II)  </a>
+</li>
+
 <!--
 <li>
 <a href=""> 第2堂 - Circuit </a>
