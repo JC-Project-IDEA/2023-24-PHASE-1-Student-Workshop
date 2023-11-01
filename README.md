@@ -128,8 +128,8 @@
 
 #include <CapacitiveSensor.h>// 使用可感應導電墨水的CAP SENSE編碼庫library
 
-#define TX 11 //to MP3 board RX //定義ARDUINO TX到MP3 RX引腳連接
-#define RX 10 //to MP3 board TX //定義ARDUINO RX到MP3 TX引腳連接
+#define TX 10 //to MP3 board RX //定義ARDUINO TX到MP3 RX引腳連接
+#define RX 11 //to MP3 board TX //定義ARDUINO RX到MP3 TX引腳連接
 
 SerialMP3Player mp3(RX, TX);// 定義起動MP3相關的TX， RX
 
