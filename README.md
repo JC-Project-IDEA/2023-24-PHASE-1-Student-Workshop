@@ -133,7 +133,9 @@
 
 SerialMP3Player mp3(RX, TX);// 定義起動MP3相關的TX， RX
 
-CapacitiveSensor sensor1 = CapacitiveSensor(2, 3); 
+CapacitiveSensor sensor1 = CapacitiveSensor(2, 3);
+CapacitiveSensor sensor1 = CapacitiveSensor(4, 5);
+CapacitiveSensor sensor1 = CapacitiveSensor(6, 7);
 //定義CAP SENSE導電感應引腳連接，兩者使用ARDUINO的DIGITAL引腳，並配合電阻達到感應運作 
 //前者為SEND PIN,後者為RECIEVE PIN要連接到紙上
 
@@ -153,12 +155,24 @@ void setup() {
 void loop() {
 
   long measurement1 =  sensor1.capacitiveSensor(10);//讀取SENSOR的數值
+  long measurement2 =  sensor2.capacitiveSensor(10);//讀取SENSOR的數值
+  long measurement3 =  sensor3.capacitiveSensor(10);//讀取SENSOR的數值
 
   Serial.print(measurement1);//SERIAL PRINT SENSOR的數值以方便MAPPING
+  Serial.print("\t");
+  Serial.print(measurement2);//SERIAL PRINT SENSOR的數值以方便MAPPING
+  Serial.print("\t");
+  Serial.print(measurement3);//SERIAL PRINT SENSOR的數值以方便MAPPING
   Serial.println("\t");
 
-if (measurement1 >= 400){//決定觸發起動歌曲的條件(值)
+  if (measurement1 >= 400){//決定觸發起動歌曲的條件(值)
     mp3.play(1);     //歌曲於SD CARD內的次序
+  }
+  if (measurement2 >= 400){//決定觸發起動歌曲的條件(值)
+    mp3.play(2);     //歌曲於SD CARD內的次序
+  }
+  if (measurement3 >= 400){//決定觸發起動歌曲的條件(值)
+    mp3.play(3);     //歌曲於SD CARD內的次序
   }
   
   delay(50);//迴圈再執行的中間位
