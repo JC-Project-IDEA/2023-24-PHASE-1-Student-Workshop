@@ -165,13 +165,13 @@ void loop() {
   Serial.print(measurement3);//SERIAL PRINT SENSOR的數值以方便MAPPING
   Serial.println("\t");
 
-  if (measurement1 >= 400){//決定觸發起動歌曲的條件(值)
+  if (measurement1 >= 60){//決定觸發起動歌曲的條件(值)
     mp3.play(1);     //歌曲於SD CARD內的次序
   }
-  if (measurement2 >= 400){//決定觸發起動歌曲的條件(值)
+  if (measurement2 >= 60){//決定觸發起動歌曲的條件(值)
     mp3.play(2);     //歌曲於SD CARD內的次序
   }
-  if (measurement3 >= 400){//決定觸發起動歌曲的條件(值)
+  if (measurement3 >= 60){//決定觸發起動歌曲的條件(值)
     mp3.play(3);     //歌曲於SD CARD內的次序
   }
   
