@@ -60,7 +60,7 @@
 </li>
 
 <li>
-<a href= "https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/blink.txt"> Code Example - Blink</a>
+<a href= "https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/Blink.txt"> Code Example - Blink</a>
 </li>
 
 <li>
