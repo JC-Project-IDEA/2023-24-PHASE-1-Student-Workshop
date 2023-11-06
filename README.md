@@ -55,31 +55,17 @@
 <a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA%20-%20Lesson%205.pdf"> 第5堂 - Arduino(II)  </a>
 </li>
 
-<!--
 <li>
-<a href=""> 第2堂 - Circuit </a>
+<a href="https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/JC-IDEA_202324-Arduino.pdf"> 第6-7堂 - Arduino(III)  </a>
 </li>
 
 <li>
-<a href=""> 第3堂 - Sound I </a>
+<a href= "https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/blink.txt"> Code Example - Blink</a>
 </li>
 
 <li>
-<a href=""> 第4堂 - Sound II </a>
+<a href= "https://github.com/JC-Project-IDEA/2023-24-PHASE-1-Student-Workshop/blob/main/SimpleMp3Player.txt"> Code Example - SimpleMp3Player</a>
 </li>
-
-<li>
-<a href= ""> 第5堂 - Circuit II </a>
-</li>
-
-<li>
-<a href= ""> Code Example - Blink</a>
-</li>
-
-<li>
-<a href= ""> Code Example - SimpleMp3Player</a>
-</li>
--->
 
 <li>
 <a href= "https://playcanv.as/p/1sMAxJ0g/">DrawSound組裝步驟圖解</a>
