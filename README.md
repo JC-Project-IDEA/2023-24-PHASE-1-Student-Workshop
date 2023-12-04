@@ -120,8 +120,8 @@
 SerialMP3Player mp3(RX, TX);// 定義起動MP3相關的TX， RX
 
 CapacitiveSensor sensor1 = CapacitiveSensor(2, 3);
-CapacitiveSensor sensor1 = CapacitiveSensor(4, 5);
-CapacitiveSensor sensor1 = CapacitiveSensor(6, 7);
+CapacitiveSensor sensor2 = CapacitiveSensor(4, 5);
+CapacitiveSensor sensor3 = CapacitiveSensor(6, 7);
 //定義CAP SENSE導電感應引腳連接，兩者使用ARDUINO的DIGITAL引腳，並配合電阻達到感應運作 
 //前者為SEND PIN,後者為RECIEVE PIN要連接到紙上
 
